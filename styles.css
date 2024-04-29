@@ -325,11 +325,6 @@ body{
     color: #000000 !important;
 }
 
-input[type="radio"] {
-    display: inline;
-    margin-right: 10px;
-  }
-
 /* Search Box */
 .scontainer {
     max-width: 600px;
@@ -361,6 +356,17 @@ input[type="radio"] {
     color: #910a0a;
 }
 
+input[type="email"]::placeholder {
+    color: #910a0a;
+}
+
+input[type="date"]::placeholder {
+    color: #910a0a;
+}
+
+input[type="number"]::placeholder {
+    color: #910a0a;
+}
   table, th, td {
     border: 1px solid #910a0a;
     border-radius: 5px;
