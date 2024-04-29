@@ -307,4 +307,41 @@ body{
     color: #000000 !important;
 }
 
+input[type="radio"] {
+    display: inline;
+    margin-right: 10px;
+  }
 
+/* Search Box */
+.scontainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #5e0505;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5e0505;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #910a0a;
+    border-radius: 5px;
+    padding: 16px;
+  }
+  
