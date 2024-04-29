@@ -169,31 +169,36 @@
             <div class="main-form">
                 <form action="#" method="get"> 
                     <div>
-                        <span>Your full name ?</span>
+                        <span>Your full name:</span>
                         <input type="text" name="name" id="name" placeholder="Name | txt |" required>
                     </div>
                     <div>
-                        <span>Your email address ?</span>
+                        <span>Your email address:</span>
                         <input type="email" name="name" id="name" placeholder="e-mail | Mail |" required> 
                     </div>
                     <div>
 
-                        <span>Which plan?</span>
+                        <span>Which Plan?</span>
                         <select name="people" id="people" required>
                             <option value=""> | Choose a plan | </option>
-                            <option value="1"> Silver Membership </option>
+                            <option value="1">Silver Membership </option>
                             <option value="2">Golden Membership </option>
                             <option value="3">Platinum Membership </option>
                         </select>
 
                         <!-- <---this is the select option--->
                     </div>
+                    
                     <div>
-                        <span>What time ?</span>
-                        <input type="text" name="time" id="time" placeholder="Time" required>
+                    <span>Gender</span>
+                    <select name="people" id="people" required>
+                        <option value=""> | Gender | </option>
+                        <option value="1"> Male </option>
+                        <option value="2"> Female </option>
+                    </select>
                     </div>
                     <div>
-                        <span>What is the date ?</span>
+                        <span>Starting Date</span>
                         <input type="date" name="date" id="date" placeholder="date" required>
                     </div>
                     <div>
@@ -210,22 +215,16 @@
         </div>
     </section>
 
+    <div class="scontainer">
+        <h1>Pick your trainer</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <table id="searchResults"></table>
+      </div>
+
+      <script src="main.js"></script>
+
     <h3  style="margin-left: 20px;" id="DarkModetext">Dark Mode is OFF</h3>
     <button style="margin-left: 20px;" onclick="darkMode()">Darkmode</button>
     <button style="margin-left: 20px;"onclick="lightMode()">LightMode</button>
-    <script>
-        function darkMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "dark-mode";
-            content.innerText = "Dark Mode is ON";
-        }
-        function lightMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "light-mode";
-            content.innerText = "Dark Mode is OFF";
-        }
-    </script>
-    <br></br>
+        <br></br>
 </body>
