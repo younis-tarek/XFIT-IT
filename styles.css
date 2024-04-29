@@ -339,6 +339,10 @@ input[type="radio"] {
     border-collapse: collapse;
   }
   
+  input[type="text"]::placeholder {
+    color: #910a0a;
+}
+
   table, th, td {
     border: 1px solid #910a0a;
     border-radius: 5px;
