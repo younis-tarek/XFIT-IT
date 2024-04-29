@@ -9,14 +9,13 @@
 }
 
 .pricing-plan{
-    width: 300px;
+    width: 350px;
     border-radius: 25px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     font-size: 16px;
     line-height: 1.5;
-    color: #910a0a;
-    margin: 15px;
+    margin: 60px;
 }
 
 /* root values to make sure of the base colors and at the same time to make the selection look cool*/
@@ -46,6 +45,7 @@
     border: .8px solid #111;
     color: #333;
     text-decoration: none;
+    border-radius: 5px;;
     transition: 0.5s;
 }
 
@@ -57,6 +57,8 @@
 .about{
     position: relative;
     width: 100%;
+    margin: 20px;
+    padding: 20px;
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -199,18 +201,19 @@ body{
     letter-spacing: 0.02em;
     text-transform: uppercase;
     font-weight: bold;
+    transition: all .3s;
 }
 
 .pricing-plan__button:hover {
     background: #910a0a;
     color: #FFFFFF;
+    transition: all .3s;
 }
 
 .pricing-plan__cost{
     margin: 0;
     text-align: center;
     font-size: 2em;
-    color: #910a0a;
 }
 
 .pricing-plan__text{
@@ -224,4 +227,84 @@ body{
     display: flex;
     align-items: center;
     padding: 10px;
+    margin: 30px;
 }
+
+
+/* Form Starts */
+
+.form{
+    width: 650px;
+}
+
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    margin: 0 10px;
+
+}
+.form-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text p{
+    font-size: large;
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+    background: none;
+    border: 1px solid #910a0a;;
+    font-size: 20px;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.main-form div select{
+    width: 104%;
+    background: none;
+    border: 1px solid #910a0a;;
+    font-size: 20px;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.main-form div span{
+    width: 100%;
+    font-size: 25px;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    width: 200px;
+    border-radius: 5px;
+    background-color: #fff !important;
+    color: black !important;
+    transition: all .3s;
+}
+
+#submit input:hover{
+    width: 200px;
+    background-color: #910a0a !important;
+    color: #fff !important;
+}   
+#submit input:active{
+    font-size: 19px;
+    background-color: #910a0a !important;
+    color: #000000 !important;
+}
+
+
