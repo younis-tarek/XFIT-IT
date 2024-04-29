@@ -1,3 +1,10 @@
+// Storing data
+localStorage.setItem('key', 'value');
+
+// Retrieving data
+var value = localStorage.getItem('key');
+
+
 function darkMode() {
     let element = document.body;
     let content = document.getElementById("DarkModetext");
